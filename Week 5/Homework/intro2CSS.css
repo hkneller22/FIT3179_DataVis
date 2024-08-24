@@ -1,0 +1,62 @@
+
+
+h1 {
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#div1cont   {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+
+.div2-class  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.text_red   {
+    color: red;
+}
+
+#text_red   {
+    color: blue;
+    font-size: 20px;
+
+}
+
+.text_green {
+    color: green;
+}
+
+.bold_word  {
+    font-weight: bold;
+}
+
+
+.italic_word  {
+    font-style: italic;
+}
+
+.bolit_word {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#c-aligned  {
+    text-align: center;
+    border: 3px dotted gold;
+}
+
+.div3   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div3_inner img {
+    height: 200px;
+}
