@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "COVID-19 Data" },
+    "data": {
+        "url": "data/COVID_19.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "aggregate": "mean",
+            "field": "total_cases",
+            "title":"Total Cases",
+            "scale": {"type": "linear"}
+            },
+        "y": {
+            "field": "continent",
+            "type": "nominal",
+            "title": null
+        },
+        "color": {
+            "field": "country",
+            "type": "nominal"
+        }
+    }
+}

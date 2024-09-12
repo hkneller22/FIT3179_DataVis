@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Tutorial 2" },
+    "data": {"url": "data/seattle-weather.csv"},
+    "transform": [
+        {
+            "calculate": "datum.temp_max - datum.temp_min",
+            "as": "temp_range"
+        }
+    ],
+    
+
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "timeUnit": "month",
+            "field": "date",
+            "type": "ordinal",
+            "title": "month of the year"
+        },
+        "y": {
+            "aggregate": "count",
+            "type": "quantitative",
+            "title": "frequency"
+        },
+        "color": {
+            "field": "weather",
+            "type": "nominal",
+            "scale": {
+                "domain": ["sun", "fog", "drizzle", "rain", "snow"],
+                "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd"]
+            },
+            "title": "weather type"
+        }
+    }
+
+    
+}
+
