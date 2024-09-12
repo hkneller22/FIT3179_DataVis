@@ -27,8 +27,6 @@ function toggleVisibility()
     }
 }
 
-
-
 // Script calls
 document.getElementById("incrementButton").addEventListener('click', incrementCounter); // call incrementCounter on incrementButton click
 document.getElementById("chartToggle").addEventListener('click', toggleVisibility); 
