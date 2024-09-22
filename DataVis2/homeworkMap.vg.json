@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
+    "width": 500,
     "height": 400,
     "title": "School Sector Funding per student and Average Difference in NMS Scores",
     "projection": {"type": "equirectangular"},
