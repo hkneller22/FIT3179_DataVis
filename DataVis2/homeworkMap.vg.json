@@ -1,24 +1,51 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": "container",
+    "width": 800,
+    "height": 400,
     "title": "School Funding per State",
-    "projection": {"type": "equalEarth"},
+    "projection": {"type": "equirectangular"},
     "layer": 
     [
 
       {
+
         "data": 
             {
-              "url": "data/ne_110m_WRLD.json",
-              "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+              "url": "data/STE_2021_AUST_GDA2020_grat.json",
+              "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
             },
+        "mark": {"type": "geoshape", "stroke": "white"},
+        "transform": 
+        [
+          {
+            "lookup": "properties.STE_NAME21",
+            "from":
+            {
+              "data":
+              {
+                "url": "data/school_pivot2022_pstud.csv"
+              },
+              "key": "State",
+              "fields": ["Government", "Catholic", "Independent"]
+            }
+          
+          },
+          {"calculate": "datum.Government / (0.5*datum.Catholic + 0.5*datum.Independent)", "as": "Public_to_Private"}
+        ],
         
-      },
-
-      {
-       
-         
+        "encoding": 
+        {
+          "color":
+          {
+            "field": "Public_to_Private",
+            "title": "Ratio of Public funding to Private",
+            "type": "quantitative",
+            "scale":
+            {
+              "type": "log"
+            }
+          }
+        }
       }
     ]
 }
