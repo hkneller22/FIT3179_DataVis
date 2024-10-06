@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 400,
+    "title": "Degree Type vs Income",
+    "layer": 
+    [
+      {
+        "data":
+        {
+          "url": "../data/qualif_vs_income-count.csv",
+          "format":
+          {
+            "type": "csv"
+          }
+        },
+        "mark":
+        {
+          "type": "circle"
+        },
+        "encoding": 
+        {
+          "x":
+          {
+            "field": "Weekly Income"
+          }
+        }
+      }
+    ]
+}
