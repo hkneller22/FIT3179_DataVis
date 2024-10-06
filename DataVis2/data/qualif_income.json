@@ -1,0 +1,483 @@
+[
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "Negative",
+    "Count": 834
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "Nill",
+    "Count": 3175
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "1-149",
+    "Count": 4452
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "150-299",
+    "Count": 8943
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "300-399",
+    "Count": 13184
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "400-499",
+    "Count": 18001
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "500-649",
+    "Count": 32912
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "650-799",
+    "Count": 44136
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "800-999",
+    "Count": 69561
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "1,000-1,249",
+    "Count": 101688
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "1,250-1,499",
+    "Count": 104182
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "1,500-1,749",
+    "Count": 113907
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "1,750-1,999",
+    "Count": 105338
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "2,000-2,999",
+    "Count": 248180
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "3,000-3,499",
+    "Count": 67425
+  },
+  {
+    "Degree": "Postgraduate Degree",
+    "Weekly Income": "3,500 or more",
+    "Count": 151616
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "Negative",
+    "Count": 283
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "Nill",
+    "Count": 966
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "1-149",
+    "Count": 1696
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "150-299",
+    "Count": 3543
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "300-399",
+    "Count": 4982
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "400-499",
+    "Count": 6901
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "500-649",
+    "Count": 12987
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "650-799",
+    "Count": 18166
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "800-999",
+    "Count": 27087
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "1,000-1,249",
+    "Count": 35946
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "1,250-1,499",
+    "Count": 34920
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "1,500-1,749",
+    "Count": 44478
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "1,750-1,999",
+    "Count": 43643
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "2,000-2,999",
+    "Count": 89647
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "3,000-3,499",
+    "Count": 17710
+  },
+  {
+    "Degree": "Graduate Diploma or Graduate Certificate",
+    "Weekly Income": "3,500 or more",
+    "Count": 32100
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "Negative",
+    "Count": 2104
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "Nill",
+    "Count": 8976
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "1-149",
+    "Count": 15596
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "150-299",
+    "Count": 34924
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "300-399",
+    "Count": 49049
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "400-499",
+    "Count": 64094
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "500-649",
+    "Count": 111414
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "650-799",
+    "Count": 150011
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "800-999",
+    "Count": 221120
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "1,000-1,249",
+    "Count": 325400
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "1,250-1,499",
+    "Count": 322067
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "1,500-1,749",
+    "Count": 325304
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "1,750-1,999",
+    "Count": 268603
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "2,000-2,999",
+    "Count": 514115
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "3,000-3,499",
+    "Count": 123191
+  },
+  {
+    "Degree": "Bachelor Degree",
+    "Weekly Income": "3,500 or more",
+    "Count": 246616
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "Negative",
+    "Count": 1795
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "Nill",
+    "Count": 5701
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "1-149",
+    "Count": 10060
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "150-299",
+    "Count": 23841
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "300-399",
+    "Count": 34507
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "400-499",
+    "Count": 48242
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "500-649",
+    "Count": 85679
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "650-799",
+    "Count": 115604
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "800-999",
+    "Count": 160198
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "1,000-1,249",
+    "Count": 196803
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "1,250-1,499",
+    "Count": 151964
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "1,500-1,749",
+    "Count": 134144
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "1,750-1,999",
+    "Count": 99532
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "2,000-2,999",
+    "Count": 171704
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "3,000-3,499",
+    "Count": 36777
+  },
+  {
+    "Degree": "Advanced Diploma and Diploma",
+    "Weekly Income": "3,500 or more",
+    "Count": 51702
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "Negative",
+    "Count": 4169
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "Nill",
+    "Count": 10876
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "1-149",
+    "Count": 26283
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "150-299",
+    "Count": 51892
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "300-399",
+    "Count": 70586
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "400-499",
+    "Count": 97907
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "500-649",
+    "Count": 183003
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "650-799",
+    "Count": 257942
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "800-999",
+    "Count": 368119
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "1,000-1,249",
+    "Count": 448270
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "1,250-1,499",
+    "Count": 332872
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "1,500-1,749",
+    "Count": 270918
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "1,750-1,999",
+    "Count": 182983
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "2,000-2,999",
+    "Count": 271837
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "3,000-3,499",
+    "Count": 56039
+  },
+  {
+    "Degree": "Certificate",
+    "Weekly Income": "3,500 or more",
+    "Count": 58660
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "Negative",
+    "Count": 7339
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "Nill",
+    "Count": 26041
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "1-149",
+    "Count": 249280
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "150-299",
+    "Count": 205504
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "300-399",
+    "Count": 176219
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "400-499",
+    "Count": 205439
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "500-649",
+    "Count": 320367
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "650-799",
+    "Count": 382263
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "800-999",
+    "Count": 475835
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "1,000-1,249",
+    "Count": 461469
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "1,250-1,499",
+    "Count": 290025
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "1,500-1,749",
+    "Count": 211880
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "1,750-1,999",
+    "Count": 132473
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "2,000-2,999",
+    "Count": 178473
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "3,000-3,499",
+    "Count": 37717
+  },
+  {
+    "Degree": "No non-school qualification",
+    "Weekly Income": "3,500 or more",
+    "Count": 57101
+  }
+]
+

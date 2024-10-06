@@ -1,30 +1,102 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": 400,
-    "title": "Degree Type vs Income",
-    "layer": 
-    [
-      {
-        "data":
-        {
-          "url": "../data/qualif_vs_income-count.csv",
-          "format":
-          {
-            "type": "csv"
-          }
-        },
-        "mark":
-        {
-          "type": "circle"
-        },
-        "encoding": 
-        {
-          "x":
-          {
-            "field": "Weekly Income"
-          }
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "title": "Degree Type vs Weekly Income",
+  "data": {"url": "../data/qualif_income.json"},
+  "params": [
+    {
+      "name": "Income_Above",
+      "value": null,
+      "bind": {
+        "input": "select",
+        "options": [null, "sing_pov", "fam_pov"],
+        "labels": [
+          "Show All",
+          "Below single adult poverty line",
+          "Below couple + two kids poverty line"
+        ],
+        "name": "Criteria Selection: "
       }
-    ]
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum['Weekly Income'] != '500-649' && datum['Weekly Income'] != '650-799' && datum['Weekly Income'] != '800-999' && datum['Weekly Income'] != '1,000-1,249' && datum['Weekly Income'] != '1,250-1,499' && datum['Weekly Income'] != '1,500-1,749' && datum['Weekly Income'] != '1,750-1,999' && datum['Weekly Income'] != '2,000-2,999' && datum['Weekly Income'] != '3,000-3,499' && datum['Weekly Income'] != '3,500 or more'",
+      "as": "sing_pov"
+    },
+    {
+      "calculate": "datum['Weekly Income'] != '1,000-1,249' && datum['Weekly Income'] != '1,250-1,499' && datum['Weekly Income'] != '1,500-1,749' && datum['Weekly Income'] != '1,750-1,999' && datum['Weekly Income'] != '2,000-2,999' && datum['Weekly Income'] != '3,000-3,499' && datum['Weekly Income'] != '3,500 or more'",
+      "as": "fam_pov"
+    },
+    {
+      "filter": "Income_Above == null || datum[Income_Above]"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Weekly Income",
+      "type": "ordinal",
+      "title": "Weekly Income ($AUD)",
+      "sort": ["Negative", "Nill", "1-149", "150-299", "300-399", "400-499", "500-649", "650-799", "800-999", "1,000-1,249", "1,250-1,499", "1,500-1,749", "1,750-1,999", "2,000-2,999", "3,000-3,499", "3,500 or more"],
+      "axis": {"labelAngle": 45}
+    },
+    "y": {
+      "field": "Degree",
+      "type": "nominal"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle"
+      },
+      "encoding": {
+        "size": {
+          "field": "Count",
+          "type": "quantitative",
+          "title": "Number of People"
+        },
+        "color": {
+          "value": "green"
+        },
+        "tooltip": 
+        [
+          {"field": "Weekly Income", "type": "ordinal", "title": "Weekly Income ($AUD)"},
+          {"field": "Degree", "type": "nominal", "title": "Degree"},
+          {"field": "Count", "type": "quantitative", "title": "Number of People", "format": ","}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Count", "order": "descending"}]
+        },
+        {"filter": "datum.ranking == 1"},
+        {"calculate": "'Most frequently occurring degree/income pair: ;' + datum['Degree'] + ' - '+ datum['Weekly Income']", "as": "text_ann_raw"},
+        {"calculate": "split(datum.text_ann_raw,';')", "as": "text_ann"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 5,
+        "dy": 25,
+        "baseline": "middle",
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {
+          "field": "text_ann"
+        },
+        "tooltip": 
+        [
+          {"field": "Weekly Income", "type": "ordinal", "title": "Weekly Income ($AUD)"},
+          {"field": "Degree", "type": "nominal", "title": "Degree"},
+          {"field": "Count", "type": "quantitative", "title": "Number of People", "format": ","}
+        ]
+      }
+    }
+  ]
 }
