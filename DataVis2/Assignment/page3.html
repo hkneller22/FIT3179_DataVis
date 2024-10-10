@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Data Visualisation 2</title>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" 
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="stylesheet" type="text/css" href="p3styles.css" media="all">
+
+        
+    </head>
+<body>
+    <div class="page">
+        <div class="pure-g">
+        
+            <div class="pure-u-1-1" id="p3head"><h2>Outcomes</h2></div>
+            <div class="pure-u-1-2" id="vis1"></div>
+            <div class="pure-u-1-2" id="dotpoints">
+                <h3>
+                    - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras id dui libero. Sed vehicula felis at diam ullamcorper, in hendrerit lacus fermentum.
+                    <br><br>
+                    - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    <br><br>
+                    - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur ac leo nunc. Vestibulum et mauris ut metus tempor feugiat sit amet vel libero.
+                </h3>
+                <img src="../data/pieCharts.png" id="pc_img">
+            </div>
+            <div class="pure-u-1-2" id="vis2"></div>
+       
+        
+            <div class="pure-u-1-1" id="buttonBox">
+                <em>^placeholder Vega-Lite graphs</em> <br>
+                <button onclick="p2Func()" class="buttons">Back</button>
+                <button onclick="p4Func()" class="buttons">Next</button>
+            </div>
+            
+            
+
+            
+        </div>
+
+    </div>
+    
+    <script type="text/javascript">
+        var locVis1 = "../Homework_w10/w10_vis.vg.json";
+        vegaEmbed('#vis1', locVis1, { "actions": false }).then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        vegaEmbed('#vis2', locVis1, { "actions": false }).then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        function p2Func()   {window.location.href = 'page2.html'}
+        function p4Func()   {window.location.href = 'page4.html'}
+    </script>
+</body>
+</html>

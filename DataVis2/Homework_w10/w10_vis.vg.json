@@ -6,7 +6,7 @@
   "data": {"url": "../data/qualif_income.json"},
   "params": [
     {
-      "name": "Income_Above",
+      "name": "Income_Below",
       "value": null,
       "bind": {
         "input": "select",
@@ -30,7 +30,7 @@
       "as": "fam_pov"
     },
     {
-      "filter": "Income_Above == null || datum[Income_Above]"
+      "filter": "(Income_Below == null) || datum[Income_Below]"
     }
   ],
   "encoding": {
@@ -75,7 +75,7 @@
           "sort": [{"field": "Count", "order": "descending"}]
         },
         {"filter": "datum.ranking == 1"},
-        {"calculate": "'Most frequently occurring degree/income pair: ;' + datum['Degree'] + ' - '+ datum['Weekly Income']", "as": "text_ann_raw"},
+        {"calculate": "'Most frequently occurring degree/income pair: ;' + datum['Degree'] + ' - $'+ datum['Weekly Income']", "as": "text_ann_raw"},
         {"calculate": "split(datum.text_ann_raw,';')", "as": "text_ann"}
       ],
       "mark": {

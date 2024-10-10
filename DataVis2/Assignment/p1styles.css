@@ -1,0 +1,29 @@
+
+.leftTextbox    {
+    width: 100%;
+}
+
+.paragraphText  {
+    width: 100%;
+    background-color: beige;
+    padding: 2%;
+    font-size: large;
+    margin-left: 5%;
+}
+
+.slideHeader    {
+    text-align: center;
+}
+
+#vis1   {
+    width: 50%;
+    height: 80%;
+    margin-top: 3%;
+    margin-left: 5%;
+  
+}
+
+#buttonBox  {
+    margin-left: 75%;
+    padding-bottom: 2%;
+}
