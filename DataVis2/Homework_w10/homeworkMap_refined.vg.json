@@ -85,8 +85,7 @@
           
           },
 
-          {"calculate": "datum.Government / (0.5*datum.Catholic + 0.5*datum.Independent)", "as": "Public_to_Private"},
-          {"calculate": "datum.Students_GOV / (datum.Students_IND + datum.Students_GOV + datum.Students_CAT)", "as": "Frac_stud_govsch"}
+          {"calculate": "datum.Government / (0.5*datum.Catholic + 0.5*datum.Independent)", "as": "Public_to_Private"}
           
         ],
         
@@ -104,7 +103,7 @@
 
           "color":
           {
-            "value": "orange"
+            "value": "#ffa500"
           },
           "tooltip": 
           [

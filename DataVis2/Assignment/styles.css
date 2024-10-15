@@ -1,16 +1,17 @@
 .homepage   {
     width: 100%;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
     position: absolute;
-    
 }
 
 
 #titleLabel {
     background-color: orange;
     padding: 2%;
-    
+    border-radius: 50px;
+    font-family: "Protest Strike", sans-serif;
+    font-size: xx-large;
 }
 
 
@@ -27,4 +28,5 @@
     border-radius: 50px;
     background: rgb(255, 255, 255);
     --hover-width: 358px;
-    }
+    font-family: "Roboto";
+}

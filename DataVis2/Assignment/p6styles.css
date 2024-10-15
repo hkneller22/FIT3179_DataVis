@@ -3,7 +3,7 @@
 .homepage   {
     width: 100%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     position: absolute;
     
 }
@@ -11,17 +11,17 @@
 
 #titleLabel {
     background-color: orange;
+    border-radius: 50px;
+    font-family: "Protest Strike", sans-serif;
 }
 
-.buttons    {
-    margin-top: 2%;
-}
 
 #sources    {
     background-color: beige;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
     margin-top: 2%;
+    border-radius: 20px;
+    font-family: "Roboto";
 }
 
 p   {
@@ -38,8 +38,11 @@ p   {
     width: 100px;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
     border-radius: 50px;
-    background: rgb(255, 183, 0);
+    background: #ffa500;
     --hover-width: 358px;
+    font-family: "Roboto";
+    margin-top: 2%;
+    margin-bottom: 2%;
     }
 
 

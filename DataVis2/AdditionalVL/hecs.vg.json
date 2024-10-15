@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 550,
     "height": 490,
-    "title": "Field of Study vs HECS Debt",
+    "title": "Field of Study vs HECS-HELP Debt",
     "data":
     {
         "url": "../data/HELP_fees_comma.csv",
@@ -42,7 +42,7 @@
                 },
                 "color":
                 {
-                    "value": "pink"
+                    "value": "#ffa500"
                 },
                 "tooltip":
                 [
@@ -82,7 +82,7 @@
                 },
                 "color":
                 {
-                    "value": "#9467bd"
+                    "value": "#279c00"
                 },
                 "tooltip":
                 [

@@ -11,7 +11,9 @@
     background-color: beige;
     font-size: large;
     
-    padding: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    font-family: "Roboto";
     
 }
 
@@ -21,6 +23,8 @@
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 0%;
+    border-radius: 50px;
+    font-family: "Protest Strike", sans-serif;
 }
 
 #vis1   {
@@ -37,11 +41,9 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?Raleway&display=swap');
-
 .buttons {
     cursor: pointer;
-    border: solid rgb(39, 156, 0);
+    border: solid #279c00;
     font-size: 16px;
     color: rgb(0, 0, 0);
     padding: 10px 30px;
@@ -49,6 +51,7 @@
     width: 100px;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
     border-radius: 50px;
-    background: rgb(255, 183, 0);
+    background: #ffa500;
     --hover-width: 358px;
-    }
+    font-family: "Roboto";
+}
