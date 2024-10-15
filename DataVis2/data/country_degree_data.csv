@@ -1,0 +1,307 @@
+Country,Degree,Count
+ Afghanistan , Postgraduate ,1183
+ Afghanistan , Graduate Diploma or Graduate Cert. ,401
+ Afghanistan , Bachelor ,4960
+ Afghanistan , Advanced Diploma or Diploma ,3552
+ Afghanistan , Certificate ,6960
+ Afghanistan , No non-school qualification ,36718
+ Australia , Postgraduate ,549744
+ Australia , Graduate Diploma or Graduate Cert. ,344665
+ Australia , Bachelor ,2048754
+ Australia , Advanced Diploma or Diploma ,1222353
+ Australia , Certificate ,3009358
+ Australia , No non-school qualification ,5301511
+ Bangladesh , Postgraduate ,16441
+ Bangladesh , Graduate Diploma or Graduate Cert. ,1218
+ Bangladesh , Bachelor ,15315
+ Bangladesh , Advanced Diploma or Diploma ,3667
+ Bangladesh , Certificate ,2074
+ Bangladesh , No non-school qualification ,7795
+ Brazil , Postgraduate ,6133
+ Brazil , Graduate Diploma or Graduate Cert. ,1793
+ Brazil , Bachelor ,19747
+ Brazil , Advanced Diploma or Diploma ,5499
+ Brazil , Certificate ,3621
+ Brazil , No non-school qualification ,6113
+ Cambodia , Postgraduate ,978
+ Cambodia , Graduate Diploma or Graduate Cert. ,248
+ Cambodia , Bachelor ,4085
+ Cambodia , Advanced Diploma or Diploma ,2139
+ Cambodia , Certificate ,3537
+ Cambodia , No non-school qualification ,25671
+ Canada , Postgraduate ,7911
+ Canada , Graduate Diploma or Graduate Cert. ,1706
+ Canada , Bachelor ,15187
+ Canada , Advanced Diploma or Diploma ,5610
+ Canada , Certificate ,5603
+ Canada , No non-school qualification ,9123
+ Chile , Postgraduate ,1971
+ Chile , Graduate Diploma or Graduate Cert. ,681
+ Chile , Bachelor ,6149
+ Chile , Advanced Diploma or Diploma ,3953
+ Chile , Certificate ,6228
+ Chile , No non-school qualification ,8473
+ China (excludes SARs and Taiwan) , Postgraduate ,116734
+ China (excludes SARs and Taiwan) , Graduate Diploma or Graduate Cert. ,9548
+ China (excludes SARs and Taiwan) , Bachelor ,137914
+ China (excludes SARs and Taiwan) , Advanced Diploma or Diploma ,51174
+ China (excludes SARs and Taiwan) , Certificate ,25640
+ China (excludes SARs and Taiwan) , No non-school qualification ,165856
+ Colombia , Postgraduate ,5123
+ Colombia , Graduate Diploma or Graduate Cert. ,1129
+ Colombia , Bachelor ,15013
+ Colombia , Advanced Diploma or Diploma ,3708
+ Colombia , Certificate ,2940
+ Colombia , No non-school qualification ,4364
+ Croatia , Postgraduate ,1120
+ Croatia , Graduate Diploma or Graduate Cert. ,441
+ Croatia , Bachelor ,3534
+ Croatia , Advanced Diploma or Diploma ,3339
+ Croatia , Certificate ,9708
+ Croatia , No non-school qualification ,22077
+ Egypt , Postgraduate ,3330
+ Egypt , Graduate Diploma or Graduate Cert. ,772
+ Egypt , Bachelor ,14671
+ Egypt , Advanced Diploma or Diploma ,3403
+ Egypt , Certificate ,3672
+ Egypt , No non-school qualification ,11815
+ England , Postgraduate ,59383
+ England , Graduate Diploma or Graduate Cert. ,26577
+ England , Bachelor ,162150
+ England , Advanced Diploma or Diploma ,106094
+ England , Certificate ,191086
+ England , No non-school qualification ,305833
+ Fiji , Postgraduate ,3821
+ Fiji , Graduate Diploma or Graduate Cert. ,1955
+ Fiji , Bachelor ,12330
+ Fiji , Advanced Diploma or Diploma ,10158
+ Fiji , Certificate ,13627
+ Fiji , No non-school qualification ,22534
+ France , Postgraduate ,9380
+ France , Graduate Diploma or Graduate Cert. ,727
+ France , Bachelor ,6597
+ France , Advanced Diploma or Diploma ,4457
+ France , Certificate ,4947
+ France , No non-school qualification ,6468
+ Germany , Postgraduate ,10797
+ Germany , Graduate Diploma or Graduate Cert. ,2216
+ Germany , Bachelor ,15356
+ Germany , Advanced Diploma or Diploma ,10983
+ Germany , Certificate ,24431
+ Germany , No non-school qualification ,28481
+ Greece , Postgraduate ,1571
+ Greece , Graduate Diploma or Graduate Cert. ,691
+ Greece , Bachelor ,4510
+ Greece , Advanced Diploma or Diploma ,3658
+ Greece , Certificate ,9786
+ Greece , No non-school qualification ,66428
+ Hong Kong (SAR of China) , Postgraduate ,15377
+ Hong Kong (SAR of China) , Graduate Diploma or Graduate Cert. ,3144
+ Hong Kong (SAR of China) , Bachelor ,32712
+ Hong Kong (SAR of China) , Advanced Diploma or Diploma ,8748
+ Hong Kong (SAR of China) , Certificate ,6386
+ Hong Kong (SAR of China) , No non-school qualification ,24736
+ India , Postgraduate ,184233
+ India , Graduate Diploma or Graduate Cert. ,17700
+ India , Bachelor ,198933
+ India , Advanced Diploma or Diploma ,66879
+ India , Certificate ,34694
+ India , No non-school qualification ,93710
+ Indonesia , Postgraduate ,10726
+ Indonesia , Graduate Diploma or Graduate Cert. ,1726
+ Indonesia , Bachelor ,28112
+ Indonesia , Advanced Diploma or Diploma ,11232
+ Indonesia , Certificate ,6994
+ Indonesia , No non-school qualification ,21835
+ Iran , Postgraduate ,16567
+ Iran , Graduate Diploma or Graduate Cert. ,993
+ Iran , Bachelor ,16057
+ Iran , Advanced Diploma or Diploma ,6250
+ Iran , Certificate ,6104
+ Iran , No non-school qualification ,17982
+ Iraq , Postgraduate ,3121
+ Iraq , Graduate Diploma or Graduate Cert. ,805
+ Iraq , Bachelor ,10598
+ Iraq , Advanced Diploma or Diploma ,8258
+ Iraq , Certificate ,7944
+ Iraq , No non-school qualification ,50401
+ Ireland , Postgraduate ,6846
+ Ireland , Graduate Diploma or Graduate Cert. ,2293
+ Ireland , Bachelor ,20035
+ Ireland , Advanced Diploma or Diploma ,8699
+ Ireland , Certificate ,16666
+ Ireland , No non-school qualification ,19160
+ Italy , Postgraduate ,5749
+ Italy , Graduate Diploma or Graduate Cert. ,1417
+ Italy , Bachelor ,10038
+ Italy , Advanced Diploma or Diploma ,12422
+ Italy , Certificate ,24380
+ Italy , No non-school qualification ,98124
+ Japan , Postgraduate ,3647
+ Japan , Graduate Diploma or Graduate Cert. ,1290
+ Japan , Bachelor ,13967
+ Japan , Advanced Diploma or Diploma ,6729
+ Japan , Certificate ,4378
+ Japan , No non-school qualification ,10051
+" Korea, Republic of (South) ", Postgraduate ,9131
+" Korea, Republic of (South) ", Graduate Diploma or Graduate Cert. ,1963
+" Korea, Republic of (South) ", Bachelor ,35534
+" Korea, Republic of (South) ", Advanced Diploma or Diploma ,14418
+" Korea, Republic of (South) ", Certificate ,7880
+" Korea, Republic of (South) ", No non-school qualification ,24695
+ Lebanon , Postgraduate ,3262
+ Lebanon , Graduate Diploma or Graduate Cert. ,764
+ Lebanon , Bachelor ,7749
+ Lebanon , Advanced Diploma or Diploma ,6873
+ Lebanon , Certificate ,11080
+ Lebanon , No non-school qualification ,51692
+ Malaysia , Postgraduate ,20073
+ Malaysia , Graduate Diploma or Graduate Cert. ,5054
+ Malaysia , Bachelor ,58269
+ Malaysia , Advanced Diploma or Diploma ,17759
+ Malaysia , Certificate ,10953
+ Malaysia , No non-school qualification ,39972
+ Malta , Postgraduate ,504
+ Malta , Graduate Diploma or Graduate Cert. ,229
+ Malta , Bachelor ,1274
+ Malta , Advanced Diploma or Diploma ,1496
+ Malta , Certificate ,5299
+ Malta , No non-school qualification ,24080
+ Myanmar , Postgraduate ,1789
+ Myanmar , Graduate Diploma or Graduate Cert. ,377
+ Myanmar , Bachelor ,5631
+ Myanmar , Advanced Diploma or Diploma ,2220
+ Myanmar , Certificate ,4545
+ Myanmar , No non-school qualification ,22275
+ Nepal , Postgraduate ,25986
+ Nepal , Graduate Diploma or Graduate Cert. ,1818
+ Nepal , Bachelor ,34602
+ Nepal , Advanced Diploma or Diploma ,19879
+ Nepal , Certificate ,7515
+ Nepal , No non-school qualification ,24699
+ Netherlands , Postgraduate ,4753
+ Netherlands , Graduate Diploma or Graduate Cert. ,1246
+ Netherlands , Bachelor ,8652
+ Netherlands , Advanced Diploma or Diploma ,7286
+ Netherlands , Certificate ,13339
+ Netherlands , No non-school qualification ,24629
+ New Zealand , Postgraduate ,19943
+ New Zealand , Graduate Diploma or Graduate Cert. ,11015
+ New Zealand , Bachelor ,67163
+ New Zealand , Advanced Diploma or Diploma ,52142
+ New Zealand , Certificate ,118407
+ New Zealand , No non-school qualification ,205997
+ North Macedonia , Postgraduate ,859
+ North Macedonia , Graduate Diploma or Graduate Cert. ,364
+ North Macedonia , Bachelor ,3495
+ North Macedonia , Advanced Diploma or Diploma ,3008
+ North Macedonia , Certificate ,5851
+ North Macedonia , No non-school qualification ,25955
+ Pakistan , Postgraduate ,21349
+ Pakistan , Graduate Diploma or Graduate Cert. ,1478
+ Pakistan , Bachelor ,23771
+ Pakistan , Advanced Diploma or Diploma ,5208
+ Pakistan , Certificate ,3848
+ Pakistan , No non-school qualification ,18916
+ Papua New Guinea , Postgraduate ,1693
+ Papua New Guinea , Graduate Diploma or Graduate Cert. ,997
+ Papua New Guinea , Bachelor ,5694
+ Papua New Guinea , Advanced Diploma or Diploma ,3614
+ Papua New Guinea , Certificate ,6209
+ Papua New Guinea , No non-school qualification ,9625
+ Philippines , Postgraduate ,11639
+ Philippines , Graduate Diploma or Graduate Cert. ,4402
+ Philippines , Bachelor ,110814
+ Philippines , Advanced Diploma or Diploma ,23370
+ Philippines , Certificate ,43457
+ Philippines , No non-school qualification ,69200
+ Poland , Postgraduate ,7809
+ Poland , Graduate Diploma or Graduate Cert. ,865
+ Poland , Bachelor ,8608
+ Poland , Advanced Diploma or Diploma ,6071
+ Poland , Certificate ,7987
+ Poland , No non-school qualification ,11003
+ Samoa , Postgraduate ,227
+ Samoa , Graduate Diploma or Graduate Cert. ,243
+ Samoa , Bachelor ,1039
+ Samoa , Advanced Diploma or Diploma ,2085
+ Samoa , Certificate ,4505
+ Samoa , No non-school qualification ,17017
+ Scotland , Postgraduate ,7468
+ Scotland , Graduate Diploma or Graduate Cert. ,3562
+ Scotland , Bachelor ,19642
+ Scotland , Advanced Diploma or Diploma ,13104
+ Scotland , Certificate ,26376
+ Scotland , No non-school qualification ,39842
+ Singapore , Postgraduate ,8063
+ Singapore , Graduate Diploma or Graduate Cert. ,2204
+ Singapore , Bachelor ,19191
+ Singapore , Advanced Diploma or Diploma ,5760
+ Singapore , Certificate ,4067
+ Singapore , No non-school qualification ,13529
+ South Africa , Postgraduate ,18559
+ South Africa , Graduate Diploma or Graduate Cert. ,5891
+ South Africa , Bachelor ,52160
+ South Africa , Advanced Diploma or Diploma ,26678
+ South Africa , Certificate ,28416
+ South Africa , No non-school qualification ,40196
+ Sri Lanka , Postgraduate ,19824
+ Sri Lanka , Graduate Diploma or Graduate Cert. ,4088
+ Sri Lanka , Bachelor ,36146
+ Sri Lanka , Advanced Diploma or Diploma ,19159
+ Sri Lanka , Certificate ,12170
+ Sri Lanka , No non-school qualification ,29601
+ Syria , Postgraduate ,706
+ Syria , Graduate Diploma or Graduate Cert. ,207
+ Syria , Bachelor ,2620
+ Syria , Advanced Diploma or Diploma ,1767
+ Syria , Certificate ,2557
+ Syria , No non-school qualification ,16376
+ Taiwan , Postgraduate ,8350
+ Taiwan , Graduate Diploma or Graduate Cert. ,1081
+ Taiwan , Bachelor ,17400
+ Taiwan , Advanced Diploma or Diploma ,5013
+ Taiwan , Certificate ,2626
+ Taiwan , No non-school qualification ,10280
+ Thailand , Postgraduate ,6076
+ Thailand , Graduate Diploma or Graduate Cert. ,622
+ Thailand , Bachelor ,19864
+ Thailand , Advanced Diploma or Diploma ,8458
+ Thailand , Certificate ,9233
+ Thailand , No non-school qualification ,29469
+ Turkey , Postgraduate ,2386
+ Turkey , Graduate Diploma or Graduate Cert. ,503
+ Turkey , Bachelor ,5509
+ Turkey , Advanced Diploma or Diploma ,2844
+ Turkey , Certificate ,4160
+ Turkey , No non-school qualification ,20291
+ United States of America , Postgraduate ,18105
+ United States of America , Graduate Diploma or Graduate Cert. ,2322
+ United States of America , Bachelor ,29342
+ United States of America , Advanced Diploma or Diploma ,6461
+ United States of America , Certificate ,8046
+ United States of America , No non-school qualification ,20843
+ Vietnam , Postgraduate ,14334
+ Vietnam , Graduate Diploma or Graduate Cert. ,2436
+ Vietnam , Bachelor ,43482
+ Vietnam , Advanced Diploma or Diploma ,18901
+ Vietnam , Certificate ,21909
+ Vietnam , No non-school qualification ,139415
+ Wales , Postgraduate ,2289
+ Wales , Graduate Diploma or Graduate Cert. ,1019
+ Wales , Bachelor ,6076
+ Wales , Advanced Diploma or Diploma ,3546
+ Wales , Certificate ,6307
+ Wales , No non-school qualification ,8087
+ Zimbabwe , Postgraduate ,4713
+ Zimbabwe , Graduate Diploma or Graduate Cert. ,1430
+ Zimbabwe , Bachelor ,11193
+ Zimbabwe , Advanced Diploma or Diploma ,6440
+ Zimbabwe , Certificate ,6633
+ Zimbabwe , No non-school qualification ,6893
+ Elsewhere , Postgraduate ,74328
+ Elsewhere , Graduate Diploma or Graduate Cert. ,14328
+ Elsewhere , Bachelor ,146216
+ Elsewhere , Advanced Diploma or Diploma ,79914
+ Elsewhere , Certificate ,116553
+ Elsewhere , No non-school qualification ,237152

@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <link rel="stylesheet" type="text/css" href="p1styles.css" media="all">
+        <link rel="stylesheet" type="text/css" href="p2styles.css" media="all">
 
         
     </head>
@@ -19,23 +19,22 @@
     <div class="page">
         <div class="pure-g">
         
-            <div class="pure-u-1-1">
-                <div class="pure-u-1-3">
-                    <div class="leftTextbox">
-                        <h2 class="slideHeader">Studying</h2>
-                        <p class="paragraphText">
-                            In Australia, domestic and international university fees vary significantly, with domestic students benefiting from government subsidies under the Commonwealth Supported Places (CSP) scheme. Domestic students pay a portion of their course fees, while the government covers the rest, resulting in lower overall costs. However, the specific fees depend on the course, with higher costs for fields like medicine or law. In contrast, international students do not receive government subsidies and pay full fees, which are significantly higher—often three to four times more than what domestic students pay. These fees are set by universities and reflect not only the cost of the courses but also the demand for them, as international students are a key revenue source for Australian institutions.
-                            Indexation of student loans, particularly for domestic students using the Higher Education Loan Program (HELP), is another concern. HELP loans are indexed annually to inflation, meaning the debt grows over time, particularly in periods of high inflation. This can disproportionately affect students who take longer to repay their loans or those on lower incomes, as their debts can increase even while their ability to repay remains limited. While international students typically pay fees upfront, the rising costs of university education and loan indexation create financial pressures for both domestic and international students, raising concerns about access and affordability in Australia's higher education system.
-                        </p>
-                    </div>
-                </div>
-            
-                <div id="vis1" class="pure-u-2-3">
+            <div class="pure-u-2-5">
+                <div class="leftTextbox">
+                    <h2 class="slideHeader">Studying</h2>
+                    <p class="paragraphText">
+                        In Australia, domestic and international university fees vary significantly, with domestic students benefiting from government subsidies under the Commonwealth Supported Places (CSP) scheme. Domestic students pay a portion of their course fees, while the government covers the rest, resulting in lower overall costs. However, the specific fees depend on the course, with higher costs for fields like medicine or law. In contrast, international students do not receive government subsidies and pay full fees, which are significantly higher—often three to four times more than what domestic students pay. These fees are set by universities and reflect not only the cost of the courses but also the demand for them, as international students are a key revenue source for Australian institutions.
+                        <br><br><br><br>
+                        Indexation of student loans, particularly for domestic students using the Higher Education Loan Program (HELP), is another concern. HELP loans are indexed annually to inflation, meaning the debt grows over time, particularly in periods of high inflation. This can disproportionately affect students who take longer to repay their loans or those on lower incomes, as their debts can increase even while their ability to repay remains limited. While international students typically pay fees upfront, the rising costs of university education and loan indexation create financial pressures for both domestic and international students, raising concerns about access and affordability in Australia's higher education system.
+                    </p>
                 </div>
             </div>
-
-            <div class="pure-u-1-1" id="buttonBox">
-                <em>^placeholder Vega-Lite graph</em> <br>
+            <div class="pure-u-3-5">
+                <div id="vis1"></div>
+            </div>
+          
+            
+            <div class="pure-u-1-8" id="buttonBox">
                 <button onclick="p1Func()" class="buttons">Back</button>
                 <button onclick="p3Func()" class="buttons">Next</button>
             </div>
@@ -48,7 +47,7 @@
     </div>
     
     <script type="text/javascript">
-        var locVis1 = "../Homework_w10/homeworkMap_refined.vg.json";
+        var locVis1 = "../AdditionalVL/hecs.vg.json";
         vegaEmbed('#vis1', locVis1, { "actions": false }).then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);

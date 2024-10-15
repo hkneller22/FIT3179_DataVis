@@ -1,0 +1,79 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 475,
+    "height": 500,
+    "title": "Number of Degrees vs Income",
+    "data": {"url": "../data/numQualif_vsIncome.json"},
+    "params": [
+      {
+        "name": "agg_type",
+        "value": "Average Weekly Income",
+        "bind": {
+          "input": "select",
+          "options": ["Average Weekly Income", "Median Weekly Income"],
+          "labels": ["Mean", "Median"],
+          "name": "Average Type: "
+        }
+      }
+    ],
+    "transform": 
+    [
+      {"calculate": "datum[agg_type]", "as": "selectedAvg"}
+    ],
+    "encoding": 
+    {
+      "y": 
+      {
+        "field": "Num_Qual",
+        "type": "ordinal",
+        "title": "Number of Qualifications",
+        "sort": ["Three or more", "Two","One","None"]
+      }
+    },
+    "layer": [
+      {
+        "transform": [
+          {
+            "aggregate": [
+              {"op": "min", "field": "selectedAvg", "as": "min"},
+              {"op": "max", "field": "selectedAvg", "as": "max"}
+            ],
+            "groupby": ["Num_Qual"]
+          }
+        ],
+        "mark": "rule",
+        "encoding": {
+          "x": {
+            "field": "min",
+            "type": "quantitative",
+            "title": "Average Weekly Income",
+            "axis": {"labelAngle": 45, "format": "$,d"}
+          },
+          "x2": {"field": "max"}
+        }
+      },
+      {
+        "mark": {"type": "circle", "size": 400},
+        "encoding": {
+          "x": {"field": "selectedAvg", "type": "quantitative"},
+          "color": {
+            "field": "Sex",
+            "scale": {
+              "domain": ["Male", "Female"],
+              "range": ["#89CFF0","#FF69B4"]
+            },
+            "legend": {"title": "Gender"}
+          },
+          "tooltip": [
+            {"field": "Sex", "type": "nominal"},
+            {"field": "Num_Qual", "type": "ordinal", "title": "Number of Qualifications"},
+            {"field": "selectedAvg", "type": "quantitative", "title": "Average Weekly Income", "format": "$,d"}
+          ],
+          "opacity":
+          {
+            "value": 1
+          }
+        }
+      }
+    ]
+  }

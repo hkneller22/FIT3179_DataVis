@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
+  "width": 475,
   "height": 400,
   "title": "Degree Type vs Weekly Income",
   "data": {"url": "../data/qualif_income.json"},
@@ -43,7 +43,11 @@
     },
     "y": {
       "field": "Degree",
-      "type": "nominal"
+      "type": "nominal",
+      "axis":
+      {
+        "labelLimit": 0
+      }
     }
   },
   "layer": [

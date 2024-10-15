@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 560,
+    "height": 200,
+    "title": "Reasons for not working in field of highest qualification",
+    "data": {
+        "url": "../data/wordcloud_data.csv"
+    },
+    "mark": {
+      "type": "text",
+      "fontWeight":"bold"
+    },
+    "encoding": {
+      "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 240]}, "axis": null},
+      "y": {"field": "y", "type": "quantitative", "scale": {"domain": [10, 110]}, "axis": null},
+      "text": {"field": "Reason"},
+      "size": {"field": "Count", "type": "quantitative", "legend": null},
+      "color": {"field": "Reason", "type": "nominal", "legend": null},
+      "tooltip":
+      [
+        {"field": "Reason", "type": "nominal"},
+        {"field": "Count", "type": "quantitative", "format": ",", "title": "Number of People"}
+      ]
+    }
+  }
+  

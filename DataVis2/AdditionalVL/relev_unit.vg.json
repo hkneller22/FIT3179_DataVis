@@ -1,0 +1,66 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "description": "A Rectangular Unit-Chart",
+    "data": {"url": "../data/relevance_age.csv"},
+    "width": 700,
+    "height": 500,
+    "mark": 
+    {
+        "type": "point",
+        "filled": true
+    },
+    "transform": [
+      {"calculate": "ceil(datum.ID/ 10)", "as": "X"},
+      {"calculate": "datum.ID - (datum.X - 1)*10", "as": "Y"}
+    ],
+    "encoding": 
+    {
+        "x": 
+        {
+            "field": "X",
+            "type": "ordinal",
+            "axis": null
+        },
+        "y":
+        {
+            "field": "Y",
+            "type": "ordinal",
+            "axis": null
+        },
+        "stroke":
+        {
+            "value": "black"
+        },
+        "color":
+        {
+            "field": "Age_Group",
+            "type": "ordinal",
+            "scale":
+            {
+                "domain": ["15-24","25-34","35-44","45-54","55-64","65-74"],
+                "range": ["#ffffcc","#c7e9b4","#7fcdbb","#41b6c4","#2c7fb8","#253494"]
+            }
+        },
+        "tooltip":
+        [
+            {"field": "Age_Group", "type":"ordinal", "title": "Age Range"},
+            {"field": "Relevancy", "type":"nominal", "title": "Job Relevancy"}
+            
+        ],
+        "shape":
+        {
+            "field": "Relevancy", 
+            "type": "nominal",
+            "title": "Job Relevancy",
+            "scale":
+            {
+                "domain": ["Different-but-relevant", "Not-relevant","Relevant","Same-field"],
+                "range": ["circle", "square","diamond","triangle"]
+            }
+        },
+        "size":
+        {
+            "value": 500
+        }
+    }
+  }

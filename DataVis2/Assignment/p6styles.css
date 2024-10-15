@@ -1,7 +1,9 @@
+
+
 .homepage   {
     width: 100%;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
     position: absolute;
     
 }
@@ -9,11 +11,22 @@
 
 #titleLabel {
     background-color: orange;
-    padding: 2%;
-    
 }
 
+.buttons    {
+    margin-top: 2%;
+}
 
+#sources    {
+    background-color: beige;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+p   {
+    font-style: italic;
+}
 
 .buttons {
     cursor: pointer;
@@ -25,6 +38,9 @@
     width: 100px;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
     border-radius: 50px;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 183, 0);
     --hover-width: 358px;
     }
+
+
+

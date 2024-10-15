@@ -1,0 +1,9 @@
+Sex,Average weekly personal income ,Median weekly personal income ,Num_Qualif,MF_med_diff
+Male,1899.8,1600,One,392
+Male,2217.4,1918,Two,568
+Male,2408.7,2014,Three or more,514
+Male,1285.3,1100,None,333
+Female,1392.3,1208,One,-1
+Female,1561.1,1350,Two,-1
+Female,1774.6,1500,Three or more,-1
+Female,872.8,767,None,-1

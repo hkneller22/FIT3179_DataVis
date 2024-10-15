@@ -1,0 +1,42 @@
+[
+  {
+    "QualTyp": "NS",
+    "EmpTyp": "Full-Time",
+    "Count": 7393900
+  },
+  {
+    "QualTyp": "NS",
+    "EmpTyp": "Part-Time",
+    "Count": 2555100
+  },
+  {
+    "QualTyp": "NS",
+    "EmpTyp": "Unemployed",
+    "Count": 258200
+  },
+  {
+    "QualTyp": "NS",
+    "EmpTyp": "Not-in-Labour-Force",
+    "Count": 2484800
+  },
+  {
+    "QualTyp": "NNS",
+    "EmpTyp": "Full-Time",
+    "Count": 2062900
+  },
+  {
+    "QualTyp": "NNS",
+    "EmpTyp": "Part-Time",
+    "Count": 1561000
+  },
+  {
+    "QualTyp": "NNS",
+    "EmpTyp": "Unemployed",
+    "Count": 186100
+  },
+  {
+    "QualTyp": "NNS",
+    "EmpTyp": "Not-in-Labour-Force",
+    "Count": 2538000
+  }
+]

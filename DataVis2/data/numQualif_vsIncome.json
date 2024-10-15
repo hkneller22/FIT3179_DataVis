@@ -1,0 +1,10 @@
+[
+    {"Sex": "Male", "Average Weekly Income": 1899.8, "Median Weekly Income": 1600, "Num_Qual": "One"},
+    {"Sex": "Male", "Average Weekly Income": 2217.4, "Median Weekly Income": 1918, "Num_Qual": "Two"},
+    {"Sex": "Male", "Average Weekly Income": 2408.7, "Median Weekly Income": 2014, "Num_Qual": "Three or more"},
+    {"Sex": "Male", "Average Weekly Income": 1285.3, "Median Weekly Income": 1100, "Num_Qual": "None"},
+    {"Sex": "Female", "Average Weekly Income": 1392.3, "Median Weekly Income": 1208, "Num_Qual": "One"},
+    {"Sex": "Female", "Average Weekly Income": 1561.1, "Median Weekly Income": 1350, "Num_Qual": "Two"},
+    {"Sex": "Female", "Average Weekly Income": 1774.6, "Median Weekly Income": 1500, "Num_Qual": "Three or more"},
+    {"Sex": "Female", "Average Weekly Income": 872.8, "Median Weekly Income": 767, "Num_Qual": "None"}
+]

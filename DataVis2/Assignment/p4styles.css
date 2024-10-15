@@ -1,22 +1,21 @@
 
 #vis1   {
-    
-    margin-left: 1%;
+    margin-left: 4%;
 }
 
 /* #barHolder   {
-    
+
 } */
 
 #vis2   {
-    margin-left: 17%;
+    margin-top: 6%;
+
 }
 
-
 #buttonBox  {
-    padding-bottom: 2%;
     margin-top: 2%;
     margin-left: 80%;
+
 }
 
 #dotpoints  {
@@ -25,33 +24,24 @@
     padding: 2%;
     margin-right: 8%;
     margin-top: 4%;
-      
+
 }
 
-/* #pieHolder {
-   
-   
-} */
-
-#vis3  {
-    margin-left: 19%;
-    
-}
-
-#vis4  {
-    margin-left: 58%;
-    
-}
 
 #header    {
     text-align: center;
     background-color: orange;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: 30%;
     margin-right: 30%;
 }
+/* 
+#dp_holder  {
+
+} */
 
 
 .buttons {

@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "../data/qualif_employ.json", "format": {"type": "json"}},
+    "width": 250,
+    "height": 250,
+    "title": "Atleast one non-school qualification",
+    "transform": 
+    [
+        {"filter": "datum.QualTyp == 'NS'"}
+    ],
+    "mark": {"type": "arc"},
+    "encoding":
+    {
+        "theta":
+        {
+            "field": "Count",
+            "type": "quantitative"
+        },
+        "color":
+        {
+            "field": "EmpTyp",
+            "type": "nominal",
+            "title": "Employment Type"
+        },
+        "tooltip": 
+        [
+            {"field": "EmpTyp", "type": "nominal", "title": "Employment Type"},
+            {"field": "Count", "type": "quantitative", "format": ",", "title": "Number of People"}
+        ]
+    }
+
+  }

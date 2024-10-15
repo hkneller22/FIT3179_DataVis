@@ -1,0 +1,95 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 550,
+    "height": 490,
+    "title": "Field of Study vs HECS Debt",
+    "data":
+    {
+        "url": "../data/HELP_fees_comma.csv",
+        "format":
+        {
+            "type": "csv"
+        }
+    },  
+    "transform": 
+    [
+        {
+            "calculate": "parseFloat(datum['Four_year_Degree_Cost']) + parseFloat(datum['2024_Indexation'])",
+            "as": "over_cost"
+        }
+    ],
+    "layer": 
+    [
+        {
+            "mark":
+            {
+                "type": "bar",
+                "tooltip": {"content": "encoding"}
+            },
+            "encoding": 
+            {
+                "y":
+                {
+                    "field": "Fields",
+                    "type": "nominal",
+                    "title": ""
+                },
+                "x":
+                {
+                    "field": "over_cost",
+                    "type": "quantitative",
+                    "title": ""
+                },
+                "color":
+                {
+                    "value": "pink"
+                },
+                "tooltip":
+                [
+                    {"field": "Fields", "type": "nominal", "title": "Field of Study"},
+                    {"field": "over_cost", "type": "quantitative", "title": "Indexed Cost", "format": "$,"},
+                    {"field": "2024_Indexation", "type": "quantitative", "title": "2024 Indexation", "format": "$,"}
+                ]
+            }
+        },
+        {
+            "mark":
+            {
+                "type": "bar"
+            },
+            "encoding": 
+            {
+                "y":
+                {
+                    "field": "Fields",
+                    "type": "nominal",
+                    "title": "",
+                    "axis":
+                    {
+                        "labelLimit": 0
+                    }
+                },
+                "x":
+                {
+                    "field": "Four_year_Degree_Cost",
+                    "type": "quantitative",
+                    "title": "Domestic Four-year Degree Cost",
+                    "axis":
+                    {
+                        "format": "$,d",
+                        "labelAngle": 45
+                    }
+                },
+                "color":
+                {
+                    "value": "#9467bd"
+                },
+                "tooltip":
+                [
+                    {"field": "Fields", "type": "nominal", "title": "Field of Study"},
+                    {"field": "Four_year_Degree_Cost", "type": "quantitative", "title": "Nominal Degree Cost", "format": "$,"}
+                ]
+            }
+        }   
+    ]
+}

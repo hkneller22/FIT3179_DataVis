@@ -1,0 +1,9 @@
+QualTyp,EmpTyp,Count,,,,
+NS,EFT,7393900,,,,
+NS,EPT,2555100,,,,NS=NonSchool (i.e. uni degree)
+NS,UP,258200,,,,NNS=NoNonSchool (i.e. only finished highschool)
+NS,NILF,2484800,,,,EFT=EmployedFulltime
+NNS,EFT,2062900,,,,EPT=EmployedPartTime
+NNS,EPT,1561000,,,,UP=Unemployed
+NNS,UP,186100,,,,NILF=NotInLabourForce
+NNS,NILF,2538000,,,,Count=NumberOfPeople

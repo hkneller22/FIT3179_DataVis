@@ -1,0 +1,76 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 500,
+    "title": "Country of Origin vs Degree Type",
+    "data": {"url": "../data/country_degree_data.csv"},
+    "params": 
+    [
+      {
+        "name": "Count_above",
+        "value": 0,
+        "bind":
+        {
+          "input": "range",
+          "min": 0,
+          "max": 2e5,
+          "step": 1e3,
+          "name": "Minimum People: "
+        }
+      }
+
+    ],
+    "transform": 
+    [
+        {"filter": "datum.Country != ' Elsewhere ' && datum.Country != ' Australia '"}
+    ],
+    "encoding": {
+      "x": {
+        "field": "Degree",
+        "type": "ordinal",
+        "title": "Qualification Type",
+        "axis": {"labelAngle": 20, "labelLimit": 0},
+        "sort": ["No non-school qualification", "Certificate","Advanced Diploma or Diploma","Bachelor","Graduate Diploma or Graduate Cert.", "Postgraduate"]
+      },
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "axis":
+        {
+          "labelLimit": 0
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "rect"
+        },
+        "encoding": {
+          "size": {
+            "value": 500
+          },
+          "color": {
+            "field": "Count",
+            "type": "quantitative",
+            "scale":
+            {
+                "type": "log"
+            },
+            "title": "Number of People"
+          },
+          "tooltip":
+          [
+            {"field": "Country", "type": "nominal", "title": "Country of Origin"},
+            {"field": "Degree", "type": "ordinal", "title": "Degree Type"},
+            {"field": "Count", "type": "quantitative", "title": "Number of People", "format": ","}
+          ],
+          "opacity":
+          {
+            "condition": {"test": "datum.Count > Count_above", "value": 1},
+            "value": 0
+          }
+        }
+      }
+    ]
+  }

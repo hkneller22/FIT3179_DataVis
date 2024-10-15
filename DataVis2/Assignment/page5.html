@@ -10,22 +10,18 @@
         integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="p1styles.css" media="all">
+        <link rel="stylesheet" type="text/css" href="p5styles.css" media="all">
     </head>
 <body>
     <div class="page">
         <div class="pure-g">
             <div class="pure-u-2-5">
                 <div class="leftTextbox">
-                    <h2 class="slideHeader">Start of Life</h2>
+                    <h2 class="slideHeader">Conclusion</h2>
                     <p class="paragraphText">
                         In Australia, the funding disparities between public and private schools contribute to significant differences in educational outcomes. Public schools, which educate the majority of students, rely heavily on government funding, which is often stretched thin. Private schools, while also receiving government funding, supplement their budgets with substantial tuition fees and private donations, giving them access to more resources, advanced facilities, and specialized programs. <br><br>
                         This creates an unequal playing field, where students in private schools typically benefit from smaller class sizes, individualized attention, and broader extracurricular options. As a result, private school students often outperform their public school peers in standardized tests and university entrance rates. These outcomes are further influenced by the socio-economic backgrounds of the students, as wealthier families are more likely to afford private education. 
                         This systemic inequality raises concerns about the fairness of the education system, as public schools are often left under-resourced, limiting opportunities for students who cannot afford private education. Despite efforts to address these issues, the gap in educational outcomes between public and private schools remains a critical challenge in achieving equitable education in Australia.
-                        <br><br>
-                        <b>NMS = National Minimum Standard</b>
-                        <br> - Choropleth colour encoding is the difference in percent of students performing above the NMS in standardised testing, between the highest and lowest income groups in each state.
-                        <br> - Proportional symbol encoding is the ratio of Public student funding to Private student funding.
                     </p>
                 </div>
             </div>
@@ -34,8 +30,8 @@
             </div>
 
             <div class="pure-u-1-4" id="buttonBox">
-                <button onclick="p0Func()" class="buttons">Back</button>
-                <button onclick="p2Func()" class="buttons">Next</button>
+                <button onclick="p4Func()" class="buttons">Back</button>
+                <button onclick="p6Func()" class="buttons">Next</button>
             </div>
 
             
@@ -44,13 +40,13 @@
     </div>
     
     <script type="text/javascript">
-        var locVis1 = "../Homework_w10/homeworkMap_refined.vg.json";
+        var locVis1 = "../AdditionalVL/heatmap.vg.json";
         vegaEmbed('#vis1', locVis1, { "actions": false }).then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
-        function p2Func()   {window.location.href = 'page2.html'}
-        function p0Func()   {window.location.href = 'index.html'}
+        function p4Func()   {window.location.href = 'page4.html'}
+        function p6Func()   {window.location.href = 'page6.html'}
     </script>
 </body>
 </html>

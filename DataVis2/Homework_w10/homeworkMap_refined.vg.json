@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": "container",
+    "width": 600,
+    "height": 550,
     "title": "School Sector Funding per student and Average Difference in NMS Scores",
     "projection": {"type": "equirectangular"},
     "layer": 
@@ -52,15 +52,6 @@
         }
       },
       
-
-      {
-        "data":
-        {
-          "url": "../data/STE_2021_AUST_GDA2020_grat.json",
-          "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
-        },
-        "mark": {"type": "geoshape", "stroke": "dimgrey"}
-      },
       {
         "data":
         {
@@ -108,7 +99,7 @@
             "field": "Public_to_Private",
             "type": "quantitative",
             "title": "Public to Private Funding Ratio",
-            "scale": {"type": "threshold", "domain": [0.2, 0.4, 0.6, 0.8, 1]}
+            "scale": {"type": "threshold", "domain": [0.7, 0.8, 0.9, 1, 1.1]}
           },
 
           "color":
